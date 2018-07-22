@@ -1,3 +1,6 @@
-input:required:invalid {
-    border: 2px solid #FF3468;
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Quattrocentro Sans", sans-serif;
 }
