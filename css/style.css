@@ -14,7 +14,7 @@ body {
 }
 #survey-form {
     background-color: #FFEA0D;
-    width: 600px;
+    width: 800px;
     height: auto;
     margin: 1rem auto 0;
     padding: 1rem 3rem;
@@ -22,3 +22,24 @@ body {
     text-align: center;
     border-radius: 5px;
 }
+
+#name-label, #email-label, #number-label, #dropdown-label {
+    display: inline-block;
+    width: 21rem;
+    margin-top: 1.6rem;
+    margin-right: 1rem;
+    padding: 0.6rem;
+    text-align: right;
+}
+#dropdown-label {
+    margin-left: -22rem;
+}
+#name, #email, #number, select {
+    width: 400px;
+    padding: 0.8rem;
+    margin: 0.2rem;
+}
+select {
+    width: 200px;
+    border: 1px solid red;
+} 
