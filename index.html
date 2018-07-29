@@ -2,14 +2,15 @@
 <html>
 <head>
     <title>Survey Form</title>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <h1 id="title">Survey Form</h1>
-    <p id="description">This survey form is to know how to make you better on the piano</p>
     <form id="survey-form">
+        <p id="description">This survey form is to know how to make you better on the piano</p>
         <label for="name" id="name-label">* Name:</label>
         <input type="text" name="name" id="name" placeholder="Enter your name" required>
         <br />
@@ -20,7 +21,7 @@
         <input type="number" name="age" id="number" placeholder="Age" size="6" min="11" max="99">
         <br />
         
-        <label for="dropdown">How would you rate your self in your piano playing?</label>
+        <label for="dropdown" id="dropdown-label">How would you rate your self in your piano playing?</label>
         <select id="dropdown" name="rating">
             <option value="beginner">Beginner</option>
             <option value="intermediate">Intermediate</option>
@@ -50,6 +51,6 @@
         <input type="submit" id="submit" name="submit" value="submit">
 
     </form>
-    <script src="scripts/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
