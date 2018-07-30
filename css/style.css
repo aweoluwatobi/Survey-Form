@@ -24,15 +24,12 @@ body {
 }
 
 #name-label, #email-label, #number-label, #dropdown-label {
-    display: inline-block;
+    border: 1px solid red;
     width: 21rem;
     margin-top: 1.6rem;
     margin-right: 1rem;
     padding: 0.6rem;
     text-align: right;
-}
-#dropdown-label {
-    margin-left: -22rem;
 }
 #name, #email, #number, select {
     width: 400px;
