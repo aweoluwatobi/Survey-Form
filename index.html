@@ -33,26 +33,30 @@
             </select>
         </div>
 
-        <div class="form-group">
-            <span>How long have you been playing the piano?</span>
-            <input id="levelOne" type="radio" name="experience" value="0-2"> <label for="levelOne">0-2</label><br/>
-            <input id="levelTwo" type="radio" name="experience" value="3-5"> <label for="levelTwo">3-5</label><br/>
-            <input id="levelThree" type="radio" name="experience" value="5-10"> <label for="levelThree">5-10</label><br/>
-            <input id="levelFour" type="radio" name="experience" value="above 10"> <label for="levelFour">Above 10</label><br/>
+        <div class="form-row">
+            <span class="form-question">How long have you been playing the piano?</span>
+            <div class="form-option">
+                <input id="levelOne" type="radio" name="experience" value="0-2"> <label for="levelOne">0-2</label><br/>
+                <input id="levelTwo" type="radio" name="experience" value="3-5"> <label for="levelTwo">3-5</label><br/>
+                <input id="levelThree" type="radio" name="experience" value="5-10"> <label for="levelThree">5-10</label><br/>
+                <input id="levelFour" type="radio" name="experience" value="above 10"> <label for="levelFour">Above 10</label><br/>
+            </div>
         </div>
 
-        <div class="form-group">
-            <span>What will you like to learn:<span>
-            <input id="scale" type="checkbox" name="learn" value="scales"> <label for="scale">Scales</label><br/>
-            <input id="chord" type="checkbox" name="learn" value="chords"> <label for="chord">Chords</label><br/>
-            <input id="bassRuns" type="checkbox" name="learn" value="bassruns"> <label for="bassRuns">Bass-runs</label><br/>
-            <input id="improvise" type="checkbox" name="learn" value="improvisation"> <label for="improvise">Improvisation</label><br/>
-            <input id="jazz" type="checkbox" name="learn" value="jazz"> <label for="jazz">Jazz</label><br/>
-            <input id="classical" type="checkbox" name="learn" value="classicalplay"> <label for="classical">Classical playing</label><br/>
+        <div class="form-row">
+            <span class="form-question">What will you like to learn:</span>
+            <div class="form-option">
+                <input id="scale" type="checkbox" name="learn" value="scales"> <label for="scale">Scales</label><br/>
+                <input id="chord" type="checkbox" name="learn" value="chords"> <label for="chord">Chords</label><br/>
+                <input id="bassRuns" type="checkbox" name="learn" value="bassruns"> <label for="bassRuns">Bass-runs</label><br/>
+                <input id="improvise" type="checkbox" name="learn" value="improvisation"> <label for="improvise">Improvisation</label><br/>
+                <input id="jazz" type="checkbox" name="learn" value="jazz"> <label for="jazz">Jazz</label><br/>
+                <input id="classical" type="checkbox" name="learn" value="classicalplay"> <label for="classical">Classical playing</label><br/>
+            </div>
         </div>
         
         <div class="form-row">
-            <label for="comments">Any Comments or Suggestions?</label>
+            <label for="comments" class="form-question">Any Comments or Suggestions?</label>
             <textarea name="comments" id="comments">Enter your comments...</textarea>
         </div>
         <input type="submit" id="submit" name="submit" value="submit">
