@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>Survey Form</title>
-    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +12,7 @@
         <p id="description">This survey form is to know how to make you better on the piano</p>
         <div class="form-row">
             <label for="name" id="name-label">* Name:</label>
-                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                <input type="text" name="name" id="name" placeholder="Enter your name" autofocus required>
         </div>
         <div class="form-row">
             <label for="email" id="email-label">* Email:</label>
@@ -25,7 +24,7 @@
         </div>
         
         <div class="form-row">
-            <label for="dropdown" id="dropdown-label">How would you rate your self in your piano playing?</label>
+            <label for="dropdown" id="dropdown-label">How would you rate your piano playing?</label>
             <select id="dropdown" name="rating">
                 <option value="beginner">Beginner</option>
                 <option value="intermediate">Intermediate</option>
@@ -44,7 +43,7 @@
         </div>
 
         <div class="form-row">
-            <span class="form-question">What will you like to learn:</span>
+            <span class="form-question">What will you like to learn?</span>
             <div class="form-option">
                 <input id="scale" type="checkbox" name="learn" value="scales"> <label for="scale">Scales</label><br/>
                 <input id="chord" type="checkbox" name="learn" value="chords"> <label for="chord">Chords</label><br/>
