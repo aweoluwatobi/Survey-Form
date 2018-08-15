@@ -7,14 +7,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: /*"Quattrocentro Sans",*/ sans-serif;
-	background: #eee;
+	background: #000;
 }
 #title {
     font-size: 3.2rem;
     text-align: center;
 }
 #survey-form {
-	background: #cfaabd;
+	background: #fff;
     width: 60%;
     height: auto;
     margin: 0 auto 2rem;
@@ -23,6 +23,10 @@ body {
     text-align: center;
 	border: 1px solid black;
     border-radius: 5px;
+}
+#description {
+	margin-top: 3rem;
+	margin-bottom: 2rem;
 }
 .form-row {
     display: grid;
