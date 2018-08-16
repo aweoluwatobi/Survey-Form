@@ -14,7 +14,7 @@ body {
     text-align: center;
 }
 #survey-form {
-	background: #eee;
+	background-color: #eee;
     width: 60%;
     height: auto;
     margin: 0 auto 2rem;
@@ -67,8 +67,20 @@ textarea {
 #comments {
 	margin: 0rem;
 }
-input[type="submit"] {
-    display: inline-block;
-    margin-top: 0.8rem;
+#submit {
+    margin-top: 2.0rem;
     margin-bottom: 1rem;
+    padding: 1rem 6rem;
+    border: 1px solid #4A426B;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #4A426B;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1.8rem;
+}
+
+#submit:hover {
+    background-color: #3E0F59;
+    cursor: pointer;
 }
