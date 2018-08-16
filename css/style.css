@@ -1,27 +1,26 @@
-/*@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
-*/
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
 html {
     font-size: 62.5%;
 }
 body {
     margin: 0;
     padding: 0;
-    font-family: /*"Quattrocentro Sans",*/ sans-serif;
-	background: #000;
+    font-family: "Quattrocento Sans", sans-serif;
+	background: linear-gradient(#4A426B, #47C6E8);
 }
 #title {
-    font-size: 3.2rem;
+    color: #fff;
+    font-size: 3.5rem;
     text-align: center;
 }
 #survey-form {
-	background: #fff;
+	background: #eee;
     width: 60%;
     height: auto;
     margin: 0 auto 2rem;
     padding: 1rem 3rem;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     text-align: center;
-	border: 1px solid black;
     border-radius: 5px;
 }
 #description {
